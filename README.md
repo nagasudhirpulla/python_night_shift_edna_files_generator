@@ -8,7 +8,7 @@ pyinstaller src\data_creator.py
 ```
 
 ## eDNA historian adapter exe file
-The exe file that is used as eDNA adapter is created by publishing the ASP.NET Core console app hosted at 
+The exe file that is used as eDNA adapter is created by publishing the ASP.NET Core console app hosted at https://github.com/nagasudhirpulla/edna_console_adapter
 
 ## edna historian exe adapter output string format
 The adapter output string if quality not included will be like
@@ -25,3 +25,6 @@ quality value in the output string is an integer with one of the following value
 ```
 GOOD = 0, BAD = 1, SUSPECT = 2, REPLACED = 3
 ```
+
+## Points to remember
+* after packaging the python script using pyinstaller, copy the `EdnaConsoleAdapter.exe` file to the dist location
