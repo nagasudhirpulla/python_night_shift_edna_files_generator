@@ -9,3 +9,7 @@
 .history/
 
 __pycache__/
+
+dist/
+build/
+*.spec
